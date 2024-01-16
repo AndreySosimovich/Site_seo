@@ -2,3 +2,72 @@
   margin: 0;
   padding: 0;
 }
+.header {
+  padding: 43px 375px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_img {
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_item a {
+  text-decoration: none;
+}
+.menu_home_text {
+  display: inline;
+  padding: 0;
+  list-style: none;
+}
+.menu_text {
+  display: inline;
+  padding: 0;
+  list-style: none;
+}
+.menu_icon {
+}
+.menu_button {
+}
+.nome_page {
+}
+.home_meta {
+}
+.title_text {
+}
+.sub_title {
+}
+.element {
+}
+.buttons_meta {
+}
+.button {
+}
+.button_video {
+}
+.icon_video {
+}
+.button_video_text {
+}
+.image {
+}
+.home_page_image {
+}
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand_items {
+}
