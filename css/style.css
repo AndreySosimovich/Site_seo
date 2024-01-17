@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold"), url("/font/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: local("Gilroy-Medium"), url("/font/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: local("Gilroy-SemiBold") url("/font/Gilroy-SemiBold.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +38,7 @@ a {
   margin-left: 0;
 }
 .logo_text {
+  font-family: "Gilroy-Bold";
   color: #000;
   font-size: 24px;
   font-style: normal;
@@ -44,6 +57,7 @@ a {
   gap: 35px;
 }
 .menu_home_text a {
+  font-family: "Gilroy-Medium";
   color: #f25822;
   font-size: 14px;
   font-style: normal;
@@ -51,6 +65,7 @@ a {
   line-height: normal;
 }
 .menu_text a {
+  font-family: "Gilroy-Medium";
   color: #000;
   font-size: 14px;
   font-style: normal;
@@ -58,6 +73,7 @@ a {
   line-height: normal;
 }
 .menu_button {
+  font-family: "Gilroy-Medium";
   color: #fff;
   font-size: 12px;
   font-style: normal;
@@ -72,6 +88,7 @@ a {
   margin-left: 34px;
 }
 .nome_page .center {
+  position: relative;
   padding-top: 134px;
   padding-bottom: 85px;
   padding-right: 440px;
@@ -82,26 +99,30 @@ a {
   align-items: center;
 }
 .title_text {
-  padding-top: 184px;
+  font-family: "Gilroy-Bold";
+  padding-top: 148px;
   width: 522px;
-  height: 182.991px;
   color: #000;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: auto;
-  padding-bottom: 31px;
+}
+.element {
+  position: absolute;
+  padding-top: 60px;
+  padding-right: 229px;
+
+  z-index: 1;
 }
 .sub_title {
+  font-family: "Gilroy-Medium";
   width: 466px;
-  /* height: 40px; */
   color: #888;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-top: 14px;
 }
 
 .buttons_meta {
@@ -110,8 +131,9 @@ a {
   padding-bottom: 85px;
 }
 .button {
+  font-family: "Gilroy-Bold";
   width: 140px;
-  height: 41.214px;
+  height: 41px;
   flex-shrink: 0;
   border-radius: 50px;
   background: #f25822;
@@ -133,6 +155,7 @@ a {
   flex-shrink: 0;
 }
 .button_video_text {
+  font-family: "Gilroy-Bold";
   width: 90px;
   height: 16px;
   flex-shrink: 0;
