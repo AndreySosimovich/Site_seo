@@ -21,8 +21,7 @@ a {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 }
-.header {
-}
+
 .navigation {
   padding-top: 45px;
   padding-bottom: 43px;
@@ -110,7 +109,7 @@ a {
 }
 .element {
   position: absolute;
-  padding-top: 60px;
+  padding-top: 65px;
   padding-right: 229px;
 
   z-index: 1;
