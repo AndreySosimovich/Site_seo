@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Gilroy-Bold";
-  src: local("Gilroy-Bold"), url("/font/Gilroy-Bold.ttf");
+  src: local("Gilroy-Bold"), url("/site_seo/font/Gilroy-Bold.ttf");
 }
 @font-face {
   font-family: "Gilroy-Medium";
-  src: local("Gilroy-Medium"), url("/font/Gilroy-Medium.ttf");
+  src: local("Gilroy-Medium"), url("/site_seo/font/Gilroy-Medium.ttf");
 }
 @font-face {
   font-family: "Gilroy-SemiBold";
-  src: local("Gilroy-SemiBold"), url("/font/Gilroy-SemiBold.ttf");
+  src: local("Gilroy-SemiBold"), url("/site_seo/font/Gilroy-SemiBold.ttf");
 }
 @font-face {
   font-family: "Gilroy-Regular";
-  src: local("Gilroy-Regular"), url("/font/Gilroy-Regular.ttf");
+  src: local("Gilroy-Regular"), url("/site_seo/font/Gilroy-Regular.ttf");
 }
 * {
   margin: 0;
